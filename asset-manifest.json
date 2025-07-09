@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/batman-shop/static/css/main.91be9a78.css",
+    "main.js": "/batman-shop/static/js/main.d2697126.js",
+    "static/media/hero__batman-background.jpg": "/batman-shop/static/media/hero__batman-background.9230fe0795a5b8e8fb9e.jpg",
+    "static/media/MontserratRegular.woff": "/batman-shop/static/media/MontserratRegular.3db65dc4b858f0fed4fb.woff",
+    "static/media/MontserratRegular.woff2": "/batman-shop/static/media/MontserratRegular.18df1d805751a6bcd913.woff2",
+    "static/media/aboutus__sphere-gradient.png": "/batman-shop/static/media/aboutus__sphere-gradient.ba906557f44312baed0f.png",
+    "static/media/GilroyBold.woff": "/batman-shop/static/media/GilroyBold.5fb38b9fa452b5814397.woff",
+    "static/media/GilroyRegular.woff": "/batman-shop/static/media/GilroyRegular.31d54a4b841c0e438f13.woff",
+    "static/media/GilroyBold.woff2": "/batman-shop/static/media/GilroyBold.304ce0e34b951c2b60fa.woff2",
+    "static/media/GilroyRegular.woff2": "/batman-shop/static/media/GilroyRegular.8910c809a9d00dd8dfe2.woff2",
+    "static/media/slick.svg": "/batman-shop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/batman-shop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/batman-shop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/batman-shop/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/batman-shop/index.html",
+    "main.91be9a78.css.map": "/batman-shop/static/css/main.91be9a78.css.map",
+    "main.d2697126.js.map": "/batman-shop/static/js/main.d2697126.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91be9a78.css",
+    "static/js/main.d2697126.js"
+  ]
+}
