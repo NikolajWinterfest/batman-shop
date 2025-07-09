@@ -1,0 +1,50 @@
+.sales__titleblock,
+.everyday__titleblock {
+  display: flex;
+  align-items: center;
+  margin-bottom: 39px;
+  height: 65px;
+  background: var(--color__gradient-white);
+}
+
+.everyday__titleblock {
+  margin-bottom: 12px;
+}
+
+.sales__titleblock-title,
+.everyday__titleblock-title {
+  padding-left: 23%;
+  font-weight: 400;
+  font-size: 36px;
+  color: var(--color__darkblue-3);
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.shop-content {
+  position: relative;
+}
+
+.shop-content::after {
+  content: '';
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  z-index: -1;
+  width: 604px;
+  height: 510px;
+  background-color: var(--color__bluepurple-dark);
+  filter: blur(220px);
+}
+
+.shop-content::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -8%;
+  z-index: -1;
+  width: 604px;
+  height: 510px;
+  background-color: var(--color__bluepurple-dark);
+  filter: blur(190px);
+}

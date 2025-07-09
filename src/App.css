@@ -1,0 +1,98 @@
+/* _____ Fonts _____ */
+
+@import url('./css/fonts.css');
+
+/* _____ DEFAULT Settings _____ */
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  color: var(--color__white);
+  background-color: var(--color__darkblue-2);
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* _____ GLOBAL Settings _____ */
+
+:root {
+  --color__adamantine: #6366a8fc;
+  --color__adamantine-dark: #2b2c41;
+  --color__beige: #ffdd85;
+  --color__black: #060606;
+  --color__bluepurple: #4b38c1;
+  --color__bluepurple-dark: #1f1466;
+  --color__darkpurple: #403a61;
+  --color__darkblue-2: #12131d;
+  --color__darkblue-3: #1b1c2b;
+  --color__gold: #ecb426;
+  --color__gray: #a1a1a1;
+  --color__green: #52ac43;
+  --color__green-2: #2d5f24;
+  --color__lightgold: #ffe898;
+  --color__lightgreen: #7abf68;
+  --color__pink: #ffb1b1;
+  --color__purple: #5c2289;
+  --color__red: #fa2f2f;
+  --color__orange: #ff5e2c;
+  --color__yellow: #ffff00;
+  --color__white: #fff;
+  --color__opacity-black: rgba(0, 0, 0, 0.8);
+  --color__gradient: linear-gradient(182deg, #ff1e1e 0%, #343d97 100%);
+  --color__gradient-blue: linear-gradient(155deg, #534d78 0%, #233c53 100%);
+  --color__gradient-white: linear-gradient(73deg, #fff 0%, transparent 100%);
+  --color__gredient-header: linear-gradient(178deg, #2b2c41 0%, #2b2c41 100%);
+  --color__gredient-besteller: linear-gradient(90deg, #cd2929 0%, transparent 100%);
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#root {
+  overflow: hidden;
+}
+
+.invisibility {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}

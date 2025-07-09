@@ -1,0 +1,70 @@
+.feedback {
+  padding: 207px 0 302px;
+}
+
+.feedback__wrapper {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1072px;
+}
+
+.feedback__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 65px 125px 47px;
+  border: 1px solid var(--color__adamantine-dark);
+  border-radius: 50px;
+}
+
+.feedback__info {
+  max-width: 329px;
+  margin-right: 65px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.feedback__info-title {
+  font-weight: 400;
+  font-size: 36px;
+  transform: translateY(-8px);
+}
+
+.feedback__info-descr {
+  font-size: 24px;
+}
+
+.inputfields {
+  display: flex;
+  flex-direction: column;
+  max-width: 396px;
+  width: 100%;
+  row-gap: 29px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.feedback__inputfields-phone,
+.feedback__inputfields-name {
+  max-width: 396px;
+  width: 100%;
+  height: 50px;
+  padding: 19px 29px;
+  border: 1px solid var(--color__adamantine-dark);
+  border-radius: 20px;
+  font-size: 10px;
+  color: var(--color__adamantine-dark);
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.feedback__inputfields-phone::placeholder,
+.feedback__inputfields-name::placeholder {
+  color: var(--color__adamantine-dark);
+  transition: color 0.3s ease;
+}
+
+.feedback__inputfields-phone:hover::placeholder,
+.feedback__inputfields-name:hover::placeholder {
+  color: transparent;
+  transition: color 0.3s ease;
+}
