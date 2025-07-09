@@ -46,7 +46,7 @@ const ModalWindow = () => {
       {firstModalWindow && (
         <ul className="modalwindow__content">
           <li className="modalwindow__picture">
-            <img src="/assets/images/window/window__joker.png" alt="Джокер" />
+            <img src="assets/images/window/window__joker.png" alt="Джокер" />
           </li>
           <li className="modalwindow__verification verification">
             <div className="verification__info">
@@ -80,7 +80,7 @@ const ModalWindow = () => {
           <li className="content-double__picture">
             <img
               className="content-double__picture-image"
-              src="/assets/images/window/window__fry.png"
+              src="assets/images/window/window__fry.png"
               alt="Фрай из «Футурамы»"
             />
           </li>

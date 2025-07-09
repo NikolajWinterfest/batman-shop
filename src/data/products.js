@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    image: '/assets/images/catalog/catalog__batman-costume.jpg',
+    image: 'assets/images/catalog/catalog__batman-costume.jpg',
     title: 'Костюм «Черного Рыцаря»',
     price: 100000,
     description:
@@ -11,7 +11,7 @@ export const products = [
   },
   {
     id: 2,
-    image: '/assets/images/catalog/catalog__batman-car.jpg',
+    image: 'assets/images/catalog/catalog__batman-car.jpg',
     title: 'Бэт-мобиль',
     price: 9800000000,
     description:
@@ -21,7 +21,7 @@ export const products = [
   },
   {
     id: 3,
-    image: '/assets/images/catalog/catalog__batman-gun.jpg',
+    image: 'assets/images/catalog/catalog__batman-gun.jpg',
     title: 'Бет-ган',
     price: 6999,
     description:
@@ -31,7 +31,7 @@ export const products = [
   },
   {
     id: 4,
-    image: '/assets/images/catalog/catalog__batman-costume.jpg',
+    image: 'assets/images/catalog/catalog__batman-costume.jpg',
     title: 'Lorem ipsum',
     price: 0,
     description:
@@ -41,7 +41,7 @@ export const products = [
   },
   {
     id: 5,
-    image: '/assets/images/catalog/catalog__batman-car.jpg',
+    image: 'assets/images/catalog/catalog__batman-car.jpg',
     title: 'Lorem ipsum',
     price: 0,
     description:
@@ -51,7 +51,7 @@ export const products = [
   },
   {
     id: 6,
-    image: '/assets/images/catalog/catalog__batman-gun.jpg',
+    image: 'assets/images/catalog/catalog__batman-gun.jpg',
     title: 'Lorem ipsum',
     price: 0,
     description:
@@ -61,7 +61,7 @@ export const products = [
   },
   {
     id: 7,
-    image: '/assets/images/catalog/catalog__batman-costume.jpg',
+    image: 'assets/images/catalog/catalog__batman-costume.jpg',
     title: 'Lorem ipsum',
     price: 0,
     description:
@@ -71,7 +71,7 @@ export const products = [
   },
   {
     id: 8,
-    image: '/assets/images/catalog/catalog__batman-car.jpg',
+    image: 'assets/images/catalog/catalog__batman-car.jpg',
     title: 'Lorem ipsum',
     price: 0,
     description:
@@ -81,7 +81,7 @@ export const products = [
   },
   {
     id: 9,
-    image: '/assets/images/catalog/catalog__batman-gun.jpg',
+    image: 'assets/images/catalog/catalog__batman-gun.jpg',
     title: 'Lorem ipsum',
     price: 0,
     description:
@@ -91,7 +91,7 @@ export const products = [
   },
   {
     id: 10,
-    image: '/assets/images/catalog/catalog__batman-costume.jpg',
+    image: 'assets/images/catalog/catalog__batman-costume.jpg',
     title: 'Lorem ipsum',
     price: 0,
     description:
@@ -101,7 +101,7 @@ export const products = [
   },
   {
     id: 11,
-    image: '/assets/images/catalog/catalog__batman-car.jpg',
+    image: 'assets/images/catalog/catalog__batman-car.jpg',
     title: 'Lorem ipsum',
     price: 0,
     description:
@@ -111,7 +111,7 @@ export const products = [
   },
   {
     id: 12,
-    image: '/assets/images/catalog/catalog__batman-gun.jpg',
+    image: 'assets/images/catalog/catalog__batman-gun.jpg',
     title: 'Lorem ipsum',
     price: 0,
     description:
@@ -121,7 +121,7 @@ export const products = [
   },
   {
     id: 13,
-    image: '/assets/images/catalog/catalog__batman-costume.jpg',
+    image: 'assets/images/catalog/catalog__batman-costume.jpg',
     title: 'Lorem ipsum',
     price: 0,
     description:
