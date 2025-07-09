@@ -1,0 +1,35 @@
+.footer {
+  height: 314px;
+  background-color: var(--color__black);
+}
+
+.footer__wrapper {
+  padding-left: 157px;
+}
+
+.footer__list {
+  display: flex;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.footer-picture__image {
+  display: flex;
+  padding-right: 44px;
+}
+
+.copyright {
+  padding-top: 65px;
+  padding-right: 71px;
+  max-width: 610px;
+}
+
+.copyright__descr {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.social-networks {
+  display: flex;
+  align-items: center;
+}

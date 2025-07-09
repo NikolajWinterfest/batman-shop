@@ -1,0 +1,79 @@
+.sales__swiper {
+  display: flex;
+  margin-bottom: 54px;
+}
+
+.slick-slide {
+  width: 357px !important;
+}
+
+.item-sales {
+  padding: 22px 0 62px;
+  max-width: 338px;
+  width: 100%;
+  background-color: var(--color__darkblue-3);
+}
+
+.item-sales__image {
+  position: relative;
+  margin-bottom: 34px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.item-sales__image-picture {
+  display: flex;
+  width: 100%;
+}
+
+.item-sales__image-besteller {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 6px 25px;
+  width: 100%;
+  font-size: 11px;
+  background: var(--color__gredient-besteller);
+}
+
+.sales-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px;
+  width: 100%;
+  min-height: 230px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.headinfo__priceandtitle-price {
+  font-size: 36px;
+  color: var(--color__gold)
+}
+
+.headinfo__priceandtitle-title {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: var(--color__gold)
+}
+
+.sales-info__btn {
+  padding: 11px 121px;
+  border-radius: 20px;
+  font-size: 24px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  color: var(--color__white);
+  background-color: var(--color__lightgreen);
+  transition: all 0.3s ease;
+}
+
+@media(any-hover: hover) {
+  .sales-info__btn:hover {
+    background-color: var(--color__green);
+  }
+}
+
+.sales-info__btn:active {
+  transform: scale(0.95);
+}

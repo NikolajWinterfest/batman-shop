@@ -1,0 +1,176 @@
+.aboutus {
+  position: relative;
+  padding-top: 221px;
+  padding-bottom: 286px;
+}
+
+.aboutus__uniquepromotion::before {
+  content: '';
+  position: absolute;
+  left: 18%;
+  right: 0;
+  bottom: 10%;
+  z-index: -1;
+  width: 191px;
+  height: 167px;
+  background-color: var(--color__lightgold);
+  filter: blur(150px);
+}
+
+.aboutus__uniquepromotion::after {
+  content: '';
+  position: absolute;
+  right: 18%;
+  bottom: 15%;
+  z-index: -1;
+  width: 363px;
+  height: 175px;
+  background-color: var(--color__red);
+  filter: blur(210px);
+}
+
+.aboutus__wrapper {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1095px;
+}
+
+.aboutus__content {
+  position: relative;
+  display: flex;
+}
+
+.aboutus__content::before {
+  content: '';
+  position: absolute;
+  top: -39%;
+  right: -15%;
+  z-index: -1;
+  width: 538px;
+  height: 538px;
+  background-color: var(--color__adamantine);
+  filter: blur(200px);
+}
+
+.aboutus__content::after {
+  content: '';
+  position: absolute;
+  right: -31%;
+  bottom: -51%;
+  z-index: -1;
+  width: 461px;
+  height: 230px;
+  background-color: var(--color__purple);
+  filter: blur(200px);
+}
+
+.aboutus__info {
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.aboutus__logo {
+  position: relative;
+  padding-top: 71px;
+  margin-right: 80px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.aboutus__logo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url('/public/assets/images/aboutus/aboutus__sphere-gradient.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.aboutus__title {
+  max-width: 518px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.aboutus__descr {
+  max-width: 420px;
+  font-family: 'Montserrat';
+  line-height: 125%;
+}
+
+.aboutus__descr-first,
+.aboutus__descr-second {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.aboutus__advantages {
+  position: relative;
+  padding-top: 175px;
+  padding-bottom: 172px;
+}
+
+.aboutus__advantages::before {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: -25%;
+  right: 0;
+  z-index: -1;
+  width: 461px;
+  height: 230px;
+  background-color: var(--color__bluepurple);
+  filter: blur(150px);
+}
+
+.aboutus-advantages__list {
+  display: flex;
+  padding-left: 100px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.aboutus-advantages__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 279px;
+  width: 100%;
+}
+
+.aboutus-advantages__item:nth-child(3) {
+  position: relative;
+}
+
+.aboutus-advantages__item:nth-child(3)::before {
+  content: '';
+  position: absolute;
+  top: -58%;
+  left: 40%;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url('/public/assets/images/aboutus/aboutus-advantages__sticker.png');
+  background-repeat: no-repeat;
+}
+
+.item-advantages__image {
+  margin-bottom: 12px;
+}
+
+.item-advantages__info-title {
+  margin-bottom: 11px;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+}
+
+.item-advantages__info-descr {
+  max-width: 220px;
+  font-size: 24px;
+  text-align: center;
+}

@@ -1,0 +1,115 @@
+/* _____ HEADER _____ */
+
+.header {
+  position: fixed;
+  display: flex;
+  z-index: 999;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: var(--color__gredient-header);
+}
+
+.header__wrapper {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1455px;
+  width: 100%;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.header__logo {
+  transform: translate(30px, 15px);
+}
+
+.header__logo,
+.header__logo-link--image {
+  max-width: 130px;
+  max-height: 130px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 117px;
+  padding-top: 29px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 115px;
+  font-size: 20px;
+}
+
+.nav-menu__item-link {
+  position: relative;
+  color: var(--color__white);
+  transition: border-bottom 0.3s ease;
+}
+
+/* --- (hover, active and other effects) --- */
+
+/* Scale effect for «Batman's Logo» */
+
+.header__logo-link--image {
+  transition: all 0.3s ease;
+}
+
+.header__logo-link:active .header__logo-link--image {
+  transform: scale(0.9);
+}
+
+.nav-menu__item-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  border-bottom: 1px solid var(--color__yellow);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.3s ease;
+  animation: line-to-back 0.3s ease;
+}
+
+.nav-menu__item-link:hover::before {
+  opacity: 1;
+  visibility: visible;
+  animation: line-to-forward 0.3s ease;
+}
+
+.social-networks {
+  display: flex;
+  column-gap: 44px;
+}
+
+.item-link__one,
+.item-link__two,
+.item-link__three {
+  width: 33px;
+  height: 33px;
+}
+
+/* --- animation --- */
+
+@keyframes line-to-forward {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes line-to-back {
+  0% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
