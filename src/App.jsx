@@ -14,7 +14,7 @@ function App() {
           <Route index element={<Home products={products} />} />
         </Route>
         <Route path="*" element={<NotFoundLayout />}>
-          <Route index element={<NotFound />} />
+          <Route element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
