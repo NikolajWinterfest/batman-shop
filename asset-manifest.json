@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/batman-shop/static/css/main.91be9a78.css",
-    "main.js": "/batman-shop/static/js/main.cc8247e7.js",
+    "main.js": "/batman-shop/static/js/main.2e01cf74.js",
     "static/media/hero__batman-background.jpg": "/batman-shop/static/media/hero__batman-background.9230fe0795a5b8e8fb9e.jpg",
     "static/media/MontserratRegular.woff": "/batman-shop/static/media/MontserratRegular.3db65dc4b858f0fed4fb.woff",
     "static/media/MontserratRegular.woff2": "/batman-shop/static/media/MontserratRegular.18df1d805751a6bcd913.woff2",
@@ -16,10 +16,10 @@
     "static/media/slick.woff": "/batman-shop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/batman-shop/index.html",
     "main.91be9a78.css.map": "/batman-shop/static/css/main.91be9a78.css.map",
-    "main.cc8247e7.js.map": "/batman-shop/static/js/main.cc8247e7.js.map"
+    "main.2e01cf74.js.map": "/batman-shop/static/js/main.2e01cf74.js.map"
   },
   "entrypoints": [
     "static/css/main.91be9a78.css",
-    "static/js/main.cc8247e7.js"
+    "static/js/main.2e01cf74.js"
   ]
 }
