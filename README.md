@@ -1,68 +1,56 @@
-# Batman Shop App
+## О проекте
 
-## Available Scripts
+<div>
+  <img src="/Batman-shop.png" title="Batman-shop" alt="Batman-shop" />&nbsp;
+</div>
 
-In the project directory, you can run:
+### Цель проекта:
 
-### `npm start`
+Сверстать лендинг страницу по макету [Batman-shop](https://www.figma.com/design/G8OLOUMWGUnamghbUG0xj2/Batman-s-Shop--Copy-?node-id=0-1&p=f&t=Mlih8y7CqkSIMZa0-0)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Задачи проекта:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Swiper, реализовать слайдер для двух секций, с возможностью переключать слайды на клавиши клавиатуры ← →
+- Реализовать плавные «якори» для меню навигации в header, сам же header сделать фиксированным
+- Реализовать модальные окна при заходе на страницу: 1-ое молальное окно, «Да / Нет» с переадресацией; далее 2-ое, уточняющий «checkbox»
+- Pixel Perfect
+- Соблюдать кодстайл
+- Реализовать таймер с обратным отчётом времени
+- Отрисовать компоненты из JSON файла
 
-### `npm test`
+## Технологии
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div>
+  <img src="https://github.com/NikolajWinterfest/NikolajWinterfest/blob/master/assets/icons/React.svg" title="react" alt="react" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/NikolajWinterfest/NikolajWinterfest/blob/master/assets/icons/Webpack.svg" title="webpack" alt="webpack" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/NikolajWinterfest/NikolajWinterfest/blob/master/assets/icons/JavaScript.svg" title="javascript" alt="javascript" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/NikolajWinterfest/NikolajWinterfest/blob/master/assets/icons/HTML.svg" title="html5" alt="html5" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/NikolajWinterfest/NikolajWinterfest/blob/master/assets/icons/CSS.svg" title="css3" alt="css3" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/NikolajWinterfest/NikolajWinterfest/blob/master/assets/icons/Git.svg" title="git" alt="git" width="40" height="40"/>&nbsp;
+</div>
 
-### `npm run build`
+## Запуск проекта
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Склонировать проект на ваш компьютер с Github с помощью команды:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone https://github.com/NikolajWinterfest/batman-shop.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Установить зависимости с помощью команды:
 
-### `npm run eject`
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Запустить проект с помощью команды
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Собрать проект с помощью команды
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm run build
+```
