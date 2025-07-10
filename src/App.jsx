@@ -8,7 +8,7 @@ import { products } from './data/products'
 
 function App() {
   return (
-    <BrowserRouter basename="/batman-shop">
+    <BrowserRouter basename='/batman-shop'>
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home products={products} />} />

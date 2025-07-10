@@ -11,7 +11,10 @@ const SocialNetworksLinks = () => {
       >
         <img
           className="item-link__one"
-          src="assets/images/header/social-networks__instagram.png"
+          src={
+            process.env.PUBLIC_URL +
+            '/assets/images/header/social-networks__instagram.png'
+          }
           alt="Логотип Instagram"
         />
       </Link>
@@ -22,7 +25,10 @@ const SocialNetworksLinks = () => {
       >
         <img
           className="item-link__two"
-          src="assets/images/header/social-networks__telegram.png"
+          src={
+            process.env.PUBLIC_URL +
+            '/assets/images/header/social-networks__telegram.png'
+          }
           alt="Логотип Telegram"
         />
       </Link>
@@ -33,7 +39,10 @@ const SocialNetworksLinks = () => {
       >
         <img
           className="item-link__three"
-          src="assets/images/header/social-networks__email.png"
+          src={
+            process.env.PUBLIC_URL +
+            '/assets/images/header/social-networks__email.png'
+          }
           alt="Логотип E-mail"
         />
       </Link>

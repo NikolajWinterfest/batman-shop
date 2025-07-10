@@ -25,7 +25,10 @@ const Header = () => {
         <Link to="#" onClick={scrollToHigh} className="header__logo-link">
           <img
             className="header__logo-link--image"
-            src="assets/images/header/header__batman-logo.png"
+            src={
+              process.env.PUBLIC_URL +
+              '/assets/images/header/header__batman-logo.png'
+            }
             alt="Логотип Бетмена"
           />
         </Link>

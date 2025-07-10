@@ -20,7 +20,7 @@ const ShopSectionProducts = ({ products }) => {
               <div className="item-sales__image invisibility">
                 <img
                   className="item-sales__image-picture"
-                  src={product.image}
+                  src={`${process.env.PUBLIC_URL}/${product.image}`}
                   alt={product.title}
                 />
                 {product.isBesteller && (

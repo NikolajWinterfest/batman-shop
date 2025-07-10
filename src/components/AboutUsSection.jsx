@@ -9,7 +9,10 @@ const AboutUsSection = () => {
           <div className="aboutus__logo invisibility">
             <img
               className="aboutus__logo-batman"
-              src="assets/images/header/header__batman-logo.png"
+              src={
+                process.env.PUBLIC_URL +
+                '/assets/images/header/header__batman-logo.png'
+              }
               alt="Логотип Бетмена"
             />
           </div>
@@ -43,7 +46,10 @@ const AboutUsSection = () => {
               <div className="item-advantages__image">
                 <img
                   className="item-advantages__image-icon"
-                  src="assets/images/aboutus/aboutus-advantages__deliver-food.png"
+                  src={
+                    process.env.PUBLIC_URL +
+                    '/assets/images/aboutus/aboutus-advantages__deliver-food.png'
+                  }
                   alt="Иконка - Доставка"
                 />
               </div>
@@ -58,7 +64,10 @@ const AboutUsSection = () => {
               <div className="item-advantages__image">
                 <img
                   className="item-advantages__image-icon"
-                  src="assets/images/aboutus/aboutus-advantages__discount.png"
+                  src={
+                    process.env.PUBLIC_URL +
+                    '/assets/images/aboutus/aboutus-advantages__discount.png'
+                  }
                   alt="Иконка - Акции"
                 />
               </div>
@@ -73,7 +82,10 @@ const AboutUsSection = () => {
               <div className="item-advantages__image">
                 <img
                   className="item-advantages__image-icon"
-                  src="assets/images/aboutus/aboutus-advantages__muscle.png"
+                  src={
+                    process.env.PUBLIC_URL +
+                    '/assets/images/aboutus/aboutus-advantages__muscle.png'
+                  }
                   alt="Иконка - Мускл"
                 />
               </div>

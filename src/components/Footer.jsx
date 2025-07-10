@@ -9,7 +9,10 @@ const Footer = () => {
           <li className="footer__item footer-picture">
             <img
               className="footer-picture__image"
-              src="assets/images/footer/footer__picture.jpg"
+              src={
+                process.env.PUBLIC_URL +
+                '/assets/images/footer/footer__picture.jpg'
+              }
               alt="Дедушка в костюме Бетмена"
             />
           </li>
